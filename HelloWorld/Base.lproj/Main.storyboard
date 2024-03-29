@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hko-6r-ovV">
-                                <rect key="frame" x="159" y="633" width="75" height="35"/>
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
@@ -34,15 +34,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hko-6r-ovV" secondAttribute="trailing" constant="159" id="1VA-9R-dHs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hko-6r-ovV" secondAttribute="bottom" constant="150" id="LIq-Ch-VsZ"/>
                             <constraint firstItem="aiI-Xc-wxI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="TEF-hU-VWX"/>
+                            <constraint firstItem="hko-6r-ovV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XxC-r5-GeZ"/>
                             <constraint firstItem="aiI-Xc-wxI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fMx-xo-FVr"/>
-                            <constraint firstItem="hko-6r-ovV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="zcg-kt-Sa0"/>
+                            <constraint firstItem="hko-6r-ovV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rmV-ye-sWS"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="textLabel" destination="aiI-Xc-wxI" id="b3D-9R-39Y"/>
+                        <outlet property="toggleButton" destination="hko-6r-ovV" id="Pu5-cB-aWL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
